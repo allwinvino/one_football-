@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name= "suite1" verbose="2">
+<test name= "test1">
+
+<classes>
+<class name = "oneFootballBase.LoginPage1Football"/>
+<!-- <class name = "oneFootballBase.FollowingTab"/>
+<class name = "oneFootballBase.CreateNewAccountUsingGMail"/> -->
+</classes>
+</test>
+</suite>
+
+<!-- To run Multiple Classes in same time Use Classes and Run 
+<class name = "oneFootballBase.FollowingTab"/>
+<class name = "oneFootballBase.CreateNewAccountUsingGMail"/> -->
+
+
+<!-- To run any one or two methods in a single class we can use Grouping
+<groups>
+<run>
+<include name = "GroupName"/>
+<exclude name = "Groupname"/>
+</run>
+</groups> -->
+
+<!-- To Test in Multiple webSites we can use Parllel 
+<suite name= "suite1" verbose="2" parallel = "methods",thread-count="2"> -->
+
+<!-- To pass Value by Parameter we can use this method
+<parameter name = "Mail" value = "allwinvinoaj486039@gmail.com"/>
+<parameter name = "Password" value = "AllWin@01"/> -->
+<!-- @parameters ({"name" "password}") -->
